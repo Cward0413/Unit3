@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light justify-content-center">
+            <a class="navbar-brand" href="#"><img src="resources/tally-brand.png" height="60" width="125"></a>
+            <div>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#band">The Band</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">The Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#merch">The Merch</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="tab-content">
+            <div id="home" class="tab-pane active">
+
+                <div id="homeParagraph">
+                    <h1 class="centerThisText">Tallymoore</h1>
+                    <br>
+                    <p>Tallymoore is a contemporary Irish Folk band from Milwaukee, Wisconsin performing a range of Irish and Scottish folk tunes, ballads,
+                        reels and classic pub songs. The group also incorporates acoustic and vocal material from broader Celtic, traditional country, bluegrass,
+                        and Americana sources. Established in 2012, Tallymoore has made appearances at major Irish music festivals across the United States including
+                        Milwaukee, Kansas City, Syracuse, Michigan and Indianapolis. They also perform regularly at popular outdoor concert series, theaters and several
+                        Irish-related events and private engagements. Tallymoore released their second full-length album “Drive” in March of 2016.</p>
+                    <p>Tallymoore aims to breathe new life into Irish folk favorites. They are best known for their strong vocals and complex harmonic treatments of tunes,
+                        along with rich instrumentation. Their innovative arrangements of classic tunes have made them a favorite among festival goers. Their vocal harmony
+                        blend, distinctive arrangements, and strong musicianship have distinguished them on the Irish music scene.</p>
+                    <p>Tallymoore’s four core players are Sean Ward (vocals, mandolin), Patrick Wade (violin), Dave Kennedy (guitar) and Pete Ford (vocals).
+                        They frequently perform with guest bassist, Karl Suechting.</p>
+                </div>
+                <div id="slideShow">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="resources/tally1.jpg" style="width:100%">
+                            <div class="text">Caption Text</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="resources/tally2.jpg" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="resources/tally1.jpg" style="width:100%">
+                            <div class="text">Caption Three</div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="band" class="tab-pane">
+                <div id="bandPage">
+                    <div class="row bandMember">
+                        <div class="col-3">
+                            <img class="bandImage" src="resources/sward.jpeg" height="200" width="300">
+                        </div>
+                        <div class="col-9">
+                            <h3>Sean Ward</h3>
+                            <p>Sean Ward, one of the co-founders of Tallymoore, brings his talents as a singer and multi-instrumentalist to the group. In addition to playing the mandolin,
+                                he plays the guitar and the bodhran as well as a wide range of other instruments. Sean is one of the principal vocalists in Tallymoore,
+                                and is featured on many of the tracks of Tallymoore’s latest CD, “Drive.”  His voice has been described as
+                                “a sparkling clear tenor…distinctive in character and refreshing in its energy and earnestness.”</p>
+                            <br>
+                            <p>His affinity for Irish folk music started at the age of 8 when he attended the Tommy Makem International Festival of Song in Armagh,
+                                Ireland. Sean is passionate about preserving the Irish folk-singing tradition and keeping alive the spirit of the important contributors to that history.
+                                He has been lucky to have shared the stage with many of these well-known folk singers, including Tommy Makem, Tom Sweeney, and Eugene Bryne.
+                                A central focus for Sean is mining the vast repertoire of Irish folk songs, and enabling Tallymoore to present compelling new arrangements of these songs,
+                                while preserving their integrity.</p>
+                        </div>
+                    </div>
+                    <hr class="hLine">
+                    <div class="row bandMember">
+                        <div class="col-9">
+                            <h3>Patrick Wade</h3>
+                            <p>Patrick Wade has been playing violin for over 26 years. His training began with private instruction in classical violin and his
+                                studies continued whilst attending the Milwaukee High School of the Arts. Patrick obtained his B.A. in Violin Performance from
+                                UW-Milwaukee and earned his Master’s in Violin Performance from UW-Madison.</p>
+                            <p>While in college, Patrick joined The Scrubbers, a Milwaukee based Irish folk-rock band whom he has played with for over 10 years.
+                                Apart from performing, Patrick also spends time exploring other aspects of music; he works as a stringed instrument repairman, in
+                                instrument and equipment sales and teaches private violin lessons to students of all ages.</p>
+                        </div>
+                        <div class="col-3">
+                            <img class="bandImage" src="resources/pwade.jpg" height="200" width="300">
+                        </div>
+                    </div>
+                    <hr class="hLine">
+                    <div class="row bandMember">
+                        <div class="col-3">
+                            <img class="bandImage" src="resources/dkennedy.jpg" height="200" width="300">
+                        </div>
+                        <div class="col-9">
+                            <h3>Dave Kennedy</h3>
+                            <p>Dave embarked on a mission to join Tallymoore after hearing them for the first time at a 2012 Christmas Concert at the Irish Fest Center in Milwaukee.
+                                He realized then and there that their talent was undeniable and, ultimately, irresistible. Asked to handicap his odds of joining the group at the time,
+                                he reckoned that it certainly was “a long shot,” noting that “there was really nothing I could add that they did not already have in great supply….”
+                                After garnering some interest from the group with his arrangement of Dougie McLean’s “Caledonia,” Dave was invited to play on several tracks of the group’s
+                                2013 CD, “Tallymoore” and began sitting in during live performances. He was drawn in by the group’s energy —-“There is a real excitement and momentum with
+                                this group that is fun to be a part of….” Sometimes persistence pays off: after driving the tour bus, carrying gear and doing laundry for a few months,
+                                he was elevated to full member status!</p>
+                        </div>
+                    </div>
+                    <hr class="hLine">
+                    <div class="row bandMember">
+                        <div class="col-9">
+                            <h3>Pete Ford</h3>
+                            <p>Pete is a vocalist and guitarist & currently resides in Chicago, where he pursues a variety of music-related projects as a performer,
+                                studio engineer, and songwriter/arranger.</p>
+                            <p>Pete graduated with honors from Columbia College in Chicago in 2013 with a degree in Contemporary, Urban and Popular Music. He has Midwestern
+                                roots, and was raised in Minnetonka, Minnesota, where he grew up listening to classic Rock and folk music. Pete combined his songwriting
+                                prowess, his musical influences and an entrepreneurial spirit and started a business in Minnetonka writing customized songs on-the-spot for
+                                mall shoppers seeking a unique gift as well as for corporate clients looking for commercial jingles. The business expanded into providing live
+                                performances of his original tunes at a variety of personal and business events.</p>
+                        </div>
+                        <div class="col-3">
+                            <img class="bandImage" src="resources/dkennedy.jpg" height="200" width="300">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="music" class="tab-pane">
+            </div>
+            <div id="merch" class="tab-pane">
+                <div class="row">
+                    <div class="col-8" id="merchArea" align="center">
+                        <div class="row merchRow">
+                            <div class="col-6">
+                                <div class="row merchBox" name="album1">
+                                    <div class="col-5 merchPic">
+                                        <img src="resources/album1.jpg" height="200" width="200">
+                                    </div>
+                                    <div class="col-6">
+                                        <h4>Album: Drive</h4>
+                                        <p>Available: Digital/Physical</p>
+                                        <p>Tracks: 12</p>
+                                        <p class="price">$15.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row merchBox" name="album2">
+                                    <div class="col-5 merchPic">
+                                        <img src="resources/album2.jpg" height="200" width="200">
+                                    </div>
+                                    <div class="col-6">
+                                        <h4>Album: Tallymoore</h4>
+                                        <p>Available: Digital/Physical</p>
+                                        <p>Tracks: 12</p>
+                                        <p class="price">$15.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row merchRow">
+                            <div class="col-6">
+                                <div class="row merchBox" name="album3">
+                                    <div class="col-5 merchPic">
+                                        <img src="resources/album3.jpg" height="200" width="200">
+                                    </div>
+                                    <div class="col-6">
+                                        <h4>Album: Tallymoore</h4>
+                                        <p>Available: Digital/Physical</p>
+                                        <p>Tracks: 12</p>
+                                        <p class="price">$15.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row merchBox" name="tshirt">
+                                    <div class="col-5 merchPic">
+                                        <img src="resources/shirt.jpg" height="200" width="200">
+                                    </div>
+                                    <div class="col-6">
+                                        <h4>Tallymoore T-Shirt</h4>
+                                        <p>Available: Physical</p>
+                                        <p>Multiple Sizes/Colors</p>
+                                        <p class="price">$20.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" id="shoppingCart">
+                        <div class="tab-content">
+                            <div id="cart" class="cartArea tab-pane active">
+                                <span id="cartMerch"></span>
+                                <div class="row" id="totalPriceArea">
+                                <div class="col">
+                                    <p>Total:</p>
+                                </div>
+                                <div class="col">
+                                    <P id="cartTotal">$0</P>
+                                </div>
+                            </div>
+                                <div class="row checkOut">
+                                <button id="coSubmit" class="btn btn-primary btn-lg">Check Out</button>
+                            </div>
+                            </div>
+                            <div id="delivery" class="cartArea tab-pane">
+                                <form id="deliveryForm">
+                                    <div class="row" id="tabHeader">
+                                        <h2>Enter your delivery info</h2>
+                                    </div>
+                                    <div class="row address">
+                                        <div class="col">
+                                            <label class="streetLabel" for="street">Street Line 1</label>
+                                            <input class="form-control streetInput" type="text" id="street" name="delivery">
+                                        </div>
+                                    </div>
+                                    <div class="row address">
+                                        <div class="col">
+                                            <label for="city">City</label>
+                                            <input class="form-control street" type="text" id="city" name="delivery">
+                                        </div>
+                                    </div>
+                                    <div class="row address">
+                                        <div class="col-4 state">
+                                            <label for="state">State</label>
+                                            <select class="form-control" id="state" name="delivery">
+                                                <option value="AL">AL</option>
+                                                <option value="AK">AK</option>
+                                                <option value="AZ">AZ</option>
+                                                <option value="AR">AR</option>
+                                                <option value="CA">CA</option>
+                                                <option value="CO">CO</option>
+                                                <option value="CT">CT</option>
+                                                <option value="DE">DE</option>
+                                                <option value="FL">FL</option>
+                                                <option value="GA">GA</option>
+                                                <option value="HI">HI</option>
+                                                <option value="ID">ID</option>
+                                                <option value="IL">IL</option>
+                                                <option value="IN">IN</option>
+                                                <option value="IA">IA</option>
+                                                <option value="KS">KS</option>
+                                                <option value="KY">KY</option>
+                                                <option value="LA">LA</option>
+                                                <option value="ME">ME</option>
+                                                <option value="MD">MD</option>
+                                                <option value="MA">MA</option>
+                                                <option value="MI">MI</option>
+                                                <option value="MN">MN</option>
+                                                <option value="MS">MS</option>
+                                                <option value="MO">MO</option>
+                                                <option value="MT">MT</option>
+                                                <option value="NE">NE</option>
+                                                <option value="NV">NV</option>
+                                                <option value="NH">NH</option>
+                                                <option value="NJ">NJ</option>
+                                                <option value="NM">NM</option>
+                                                <option value="NY">NY</option>
+                                                <option value="NC">NC</option>
+                                                <option value="ND">ND</option>
+                                                <option value="OH">OH</option>
+                                                <option value="OK">OK</option>
+                                                <option value="OR">OR</option>
+                                                <option value="PA">PA</option>
+                                                <option value="RI">RI</option>
+                                                <option value="SC">SC</option>
+                                                <option value="SD">SD</option>
+                                                <option value="TN">TN</option>
+                                                <option value="TX">TX</option>
+                                                <option value="UT">UT</option>
+                                                <option value="VT">VT</option>
+                                                <option value="WA">WA</option>
+                                                <option value="WV">WV</option>
+                                                <option value="WI">WI</option>
+                                                <option value="WY">WY</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-8 zipcode">
+                                            <label for="zipcode">Zipcode</label>
+                                            <input class="form-control" type="text" id="zipcode" name="delivery">
+                                        </div>
+                                    </div>
+                                    <div class="row address">
+                                        <div class="col">
+                                            <label for="phonenumber" class="phoneLabel">PhoneNumber</label>
+                                            <input class="form-control phoneInput" type="number" id="phonenumber" name="delivery">
+                                        </div>
+                                    </div>
+                                    <div class="row address">
+                                        <div class="col">
+                                            <label for="email">Email</label>
+                                            <input class="form-control" type="text" id="email" name="delivery">
+                                        </div>
+                                    </div>
+                                    <div class="row address">
+                                        <div class="col-6 deliveryButton">
+                                            <button id="back" class="btn btn-primary">Back</button>
+                                        </div>
+                                        <div class="col-6 deliveryButton">
+                                            <button id="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content" id="modalContent">
+                            <span class="close">&times;</span>
+                            <form id="merchForm">
+                                <div id="cdMerch">
+                                    <div class="row modalImg">
+                                    </div>
+                                    <div class="row modalName">
+                                    </div>
+                                    <div class="row" id="cdFormat">
+                                        <div class="col-4">
+                                            <p>Format</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <select class="browser-default custom-select" id="mFormat">
+                                                <option value="15">Physical</option>
+                                                <option value="12.5">Digital</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div id="shirtFields">
+                                        <div class="row shirtRow">
+                                            <div class="col-4">
+                                                <p>Size:</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <select class="browser-default custom-select" id="sSize">
+                                                    <option value="small">Small</option>
+                                                    <option value="medium">Medium</option>
+                                                    <option value="large">Large</option>
+                                                    <option value="x-large">X-Large</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row shirtRow">
+                                            <div class="col-4">
+                                                <p>Color:</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <select class="browser-default custom-select" id="sColor">
+                                                    <option value="green">Green</option>
+                                                    <option value="navy">Navy</option>
+                                                    <option value="black">Black</option>
+                                                    <option value="red">Red</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" id="quantRow">
+                                        <div class="col-4">
+                                            <label for="quant">Quantity</label>
+                                        </div>
+                                        <div class="col-8">
+                                            <input class="form-control" id="quant" type="number" value="1">
+                                        </div>
+                                    </div>
+                                    <div class="row" id="itemPriceRow">
+                                        <p id="itemPrice"></p>
+                                    </div>
+                                    <div class="row" id="addToCart">
+                                        <button class="btn btn-primary">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="deliveryModal" class="modal">
+                        <div class="modal-content" id="deliveryModalContent">
+                            <span class="close">&times;</span>
+                            <div id="dModalParagraph">
+                                <div class="row">
+                                    <h2>Thank you for your purchase!</h2>
+                                </div>
+                                <div class="row">
+                                    <p>You will receive an email shortly with any download links to digital media and a tracking number for physical purchases.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+
+</html>
